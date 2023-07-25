@@ -1,6 +1,6 @@
 rm(list=ls())
 cat("\014")
-setwd("/Users/shwetshah/Desktop/BA with R/Assignment 2") #setting working directory
+setwd("/Users/shwetshah/Desktop") #setting working directory
 
 #Q1 a)Loading the data
 bank <- read.csv("bank.csv", stringsAsFactors = FALSE)
